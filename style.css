@@ -1,0 +1,373 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    content: "";
+    display: inline-block;
+    clear: both;
+}
+
+header {
+    width: 100%;
+    height: 100%;
+    background: brown;
+    /* position: fixed;*/
+}
+
+.logo {
+    width: 30%;
+    float: left;
+    text-align: left;
+    line-height: 100px;
+}
+
+.logo a {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Gill Sans';
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+nav {
+    float: right;
+    line-height: 100px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    word-spacing: 2rem;
+    font-size: 20px;
+    color: black padding: 36px 10px;
+    margin: 0 1px;
+}
+
+nav a:hover {
+    background: #fff;
+    color: black;
+}
+
+.banner-area {
+    background-image: url('./img/pexelshoe.jpg');
+    background-size: cover;
+    background-position: center center;
+    top: 100px;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+}
+
+.banner-area::after {}
+
+
+/*######### home styling*########*/
+
+.sale {
+    font-size: 5.5rem;
+    margin-top: 150px;
+    text-transform: uppercase;
+    color: red;
+}
+
+.banner-area p {
+    text-transform: uppercase;
+    color: black;
+}
+
+.explore-button {
+    display: inline-block;
+    border-radius: 10em;
+    padding: 0.5em 1.5em;
+    text-transform: uppercase;
+    margin: 0.5em 0;
+    text-decoration: none;
+    color: #e64;
+    background-color: wheat;
+}
+
+
+/*helpstyling*/
+
+span {
+    margin-top: 2em;
+    color: #e63946;
+}
+
+.text-help {
+    text-align: left;
+    padding: 0 2rem;
+}
+
+.text-gray {
+    text-align: center;
+}
+
+.about-heading {
+    color: #e63946;
+    font-size: 3rem;
+    margin-top: 3rem;
+}
+
+.about-heading::after {
+    content: '';
+    display: block;
+    width: 1285px;
+    border-bottom: 5px solid #e63946;
+}
+
+
+/*   about wrapper class*/
+
+.footer {
+    background: #263238;
+    color: #f4f4f4;
+    text-align: center;
+    padding: 2rem;
+}
+
+.fa-brands {
+    color: #f4f4f4;
+}
+
+.about-wrapper {
+    text-align: center;
+}
+
+.about-wrapper .left {
+    float: left;
+    width: 50%;
+}
+
+.about-wrapper .right {
+    float: right;
+    width: 50%;
+}
+
+.about-wrapper li {
+    padding: 3px;
+}
+
+.about-wrapper li::before {
+    content: "\2713";
+    color: #e63946;
+}
+
+
+/*count styling*/
+
+.counts {
+    margin-top: 1rem;
+}
+
+.count-items span {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.count-items {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.count::after {
+    content: "";
+    display: inline-block;
+    clear: both;
+}
+
+.cta-banner {
+    background-color: #e63946;
+    color: #f4f4f4;
+    padding: 0.8rem;
+    box-shadow: 5px 5px 10px black;
+    margin-top: 10.5rem;
+}
+
+.cta-banner-left {
+    float: left;
+    width: 60%;
+    margin-bottom: 2rem;
+}
+
+.cta-banner-right {
+    float: right;
+    width: 40%;
+}
+
+.cta-banner::after {
+    content: "";
+    display: inline-block;
+    clear: both;
+}
+
+.cta-line {
+    font-size: 700;
+    font-weight: 2rem;
+    margin-top: 0.2rem;
+}
+
+.btn-cta {
+    display: inline-block;
+    font-size: 700;
+    text-align: center;
+    font-weight: 3rem;
+    letter-spacing: 0.1em;
+    padding: 0.3em 2.5em;
+    text-transform: uppercase;
+    color: #f4f4f4;
+    border: 4px solid wheat;
+    margin-top: -1rem;
+    text-decoration: none;
+}
+
+
+/*###### contact form styling*/
+
+.contact-form {
+    padding: 5rem 0;
+    background: #f7f7f7;
+}
+
+.form-wrapper {}
+
+.form-wrapper::after {
+    display: inline-block;
+    clear: both;
+    content: "";
+}
+
+.form-wrapper .company-address {
+    float: left;
+    width: 49%;
+    background: #f4f4f4;
+    padding: 1rem;
+}
+
+.form-wrapper .company-address i {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.form-wrapper .company-address h2 {
+    text-transform: uppercase;
+}
+
+.form-wrapper .address-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-wrapper .company-address img {
+    max-width: 90%;
+    min-height: 20rem;
+    object-fit: cover;
+    object-position: right;
+}
+
+
+/* Form styling*/
+
+.form-wrapper .form {
+    background: #f4f4f4;
+    float: right;
+    width: 49%;
+    font-size: 1.6rem;
+    padding: 1rem;
+}
+
+.form h1::after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.form-wrapper label {
+    display: block;
+}
+
+.form-wrapper .form input {
+    padding: 0.5rem 0;
+    width: 100%;
+}
+
+.form-wrapper .form .form-group {
+    margin-bottom: 1.2rem;
+}
+
+.form-wrapper .form label::after {
+    content: "*";
+    color: #e63946;
+}
+
+.form-wrapper .form textarea {
+    width: 100%;
+    height: 161px;
+    padding: 1rem;
+}
+
+.form-btn {
+    display: block;
+    font-size: 1.3rem;
+    margin: 0 auto;
+    padding: 0.5em 1em;
+    text-transform: uppercase;
+    background-color: #e63946;
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+/*#############featurestyling###########*/
+
+.feature {
+    background-color: #e63946;
+    color: #263238;
+    padding: 3.28rem 2rem;
+}
+
+.image1 img {
+    max-width: 100%;
+}
+
+.image2 {
+    height: 100%;
+    width: ;
+    : 100%;
+    border: 2px solid black;
+}
+
+.image-left {
+    border: 2px solid red;
+    width: 40%;
+    height: 50%;
+    float: left;
+    /* padding: 12rem 2rem; */
+    margin-left: 3rem;
+}
+
+.image-left img {
+    max-width: 100%;
+}
+
+.image-right {
+    border: 2px solid green;
+    width: 40%;
+    height: 50%;
+    color: aqua;
+    float: right;
+    padding: 12rem 2rem;
+    margin-right: 3rem;
+}
